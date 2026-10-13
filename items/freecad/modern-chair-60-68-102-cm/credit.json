@@ -1,0 +1,21 @@
+{
+  "title": "Modern chair, 60 × 68 × 102 cm",
+  "source_title": "ModernChair (60 x 68 x 102 cm WDH)",
+  "author": "Alexandru-Radu BORZEA",
+  "author_from": "the CreatedBy property of the FreeCAD file",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Industrial Design/Chairs/ModernChair (60 x 68 x 102 cm WDH).stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Chairs/ModernChair%20(60%20x%2068%20x%20102%20cm%20WDH).stl",
+  "source_sha256": "34243b95b6b92d5a2d7247bd4f9ca27fd068ac92ce2c76810f2f24e806feb074",
+  "freecad_file": "Industrial Design/Chairs/ModernChair (60 x 68 x 102 cm WDH).FCStd",
+  "freecad_license_property": "All rights reserved",
+  "notes": [
+    "The FreeCAD file's License property reads \"All rights reserved\", FreeCAD's default for new documents; the library's LICENSE-Assets puts every part under CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“ModernChair (60 x 68 x 102 cm WDH)” by Alexandru-Radu BORZEA, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Chairs/ModernChair%20(60%20x%2068%20x%20102%20cm%20WDH).stl), CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Converted to a CadCraft library item."
+}

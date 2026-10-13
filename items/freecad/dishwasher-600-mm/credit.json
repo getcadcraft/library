@@ -1,0 +1,21 @@
+{
+  "title": "Dishwasher, 600 mm",
+  "source_title": "Dishwasher_600mm",
+  "author": "Mauro Bellone",
+  "author_from": "the git commit that added the part (2019-11-16, \"appliances and other small things\")",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Industrial Design/Appliances/Dishwasher_600mm.stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Appliances/Dishwasher_600mm.stl",
+  "source_sha256": "7890fb779ef8bf8fb761c4968324989e10863bcfe4a5e5df3c108b788b4596fe",
+  "freecad_file": "Industrial Design/Appliances/Dishwasher_600mm.FCStd",
+  "freecad_license_property": "All rights reserved",
+  "notes": [
+    "The FreeCAD file's License property reads \"All rights reserved\", FreeCAD's default for new documents; the library's LICENSE-Assets puts every part under CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was turned 180° counterclockwise so its front faces the front, and moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“Dishwasher_600mm” by Mauro Bellone, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Appliances/Dishwasher_600mm.stl), CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Converted to a CadCraft library item."
+}

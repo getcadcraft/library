@@ -1,0 +1,21 @@
+{
+  "title": "Wooden folding table",
+  "source_title": "Wooden Folding Table",
+  "author": "mhtondin",
+  "author_from": "the git commit that added the part (2023-04-19, \"Wooden Folding Table\")",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Industrial Design/Tables/Wooden Folding Table.stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Tables/Wooden%20Folding%20Table.stl",
+  "source_sha256": "027ac0e5cf7fd74575f5731f241a2c085b5aa5a539b3c32ed7ae64962d8014bc",
+  "freecad_file": "Industrial Design/Tables/Wooden Folding Table.FCStd",
+  "freecad_license_property": "All rights reserved",
+  "notes": [
+    "The FreeCAD file's License property reads \"All rights reserved\", FreeCAD's default for new documents; the library's LICENSE-Assets puts every part under CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“Wooden Folding Table” by mhtondin, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Industrial%20Design/Tables/Wooden%20Folding%20Table.stl), CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Converted to a CadCraft library item."
+}

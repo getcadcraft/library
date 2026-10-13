@@ -1,0 +1,21 @@
+{
+  "title": "Water tank, 500 L",
+  "source_title": "Water tank 500L",
+  "author": "Yorik van Havre",
+  "author_from": "the CreatedBy property of the FreeCAD file",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Pipes and tubes/Water tank 500L.stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Pipes%20and%20tubes/Water%20tank%20500L.stl",
+  "source_sha256": "b4707de5a3f0b30553cc6e3480edc662f2f72699ba6a3b8612ea911ea8d4ee28",
+  "freecad_file": "Pipes and tubes/Water tank 500L.FCStd",
+  "freecad_license_property": "CreativeCommons Attribution",
+  "notes": [
+    "The part's FreeCAD file says the author chose CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/); the library as a whole is CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“Water tank 500L” by Yorik van Havre, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Pipes%20and%20tubes/Water%20tank%20500L.stl), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Converted to a CadCraft library item."
+}

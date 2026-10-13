@@ -1,0 +1,21 @@
+{
+  "title": "Wall-hung bidet",
+  "source_title": "WallHungBidet",
+  "author": "Mauro Bellone",
+  "author_from": "the git commit that added the part (2019-11-16, \"appliances and other small things\")",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Architectural Parts/Hydro equipment/WallHungBidet.stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Architectural%20Parts/Hydro%20equipment/WallHungBidet.stl",
+  "source_sha256": "563cc6c2bb138a1bb6a5f254265bb9695015da5319b1ac1d575644904437a332",
+  "freecad_file": "Architectural Parts/Hydro equipment/WallHungBidet.FCStd",
+  "freecad_license_property": "All rights reserved",
+  "notes": [
+    "The FreeCAD file's License property reads \"All rights reserved\", FreeCAD's default for new documents; the library's LICENSE-Assets puts every part under CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was turned 180° counterclockwise so its front faces the front, and moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“WallHungBidet” by Mauro Bellone, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Architectural%20Parts/Hydro%20equipment/WallHungBidet.stl), CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Converted to a CadCraft library item."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Washbasin, 48 × 43 cm",
+  "source_title": "washbasin 48x43cm",
+  "author": "Yorik van Havre",
+  "author_from": "the CreatedBy property of the FreeCAD file",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "library": "FreeCAD Parts Library",
+  "library_url": "https://github.com/FreeCAD/FreeCAD-library",
+  "commit": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+  "source_file": "Architectural Parts/Hydro equipment/washbasin 48x43cm.stl",
+  "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Architectural%20Parts/Hydro%20equipment/washbasin%2048x43cm.stl",
+  "source_sha256": "6f90a6b785590e45d78409efb758f6fb65640b32b94b9fd5c84eefde480b3667",
+  "freecad_file": "Architectural Parts/Hydro equipment/washbasin 48x43cm.fcstd",
+  "freecad_license_property": "CreativeCommons Attribution",
+  "notes": [
+    "The part's FreeCAD file says the author chose CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/); the library as a whole is CC BY 3.0."
+  ],
+  "changes": "Converted from STL to a CadCraft library item: the mesh was moved so the middle of its back, at the bottom, is the insertion point, and a plan outline was added. Nothing else was changed.",
+  "attribution": "“washbasin 48x43cm” by Yorik van Havre, from the FreeCAD Parts Library (https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Architectural%20Parts/Hydro%20equipment/washbasin%2048x43cm.stl), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Converted to a CadCraft library item."
+}
