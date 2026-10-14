@@ -48,6 +48,7 @@ const git = (...a) => execFileSync('git', ['-C', upstream, ...a], { maxBuffer: 2
 const gitText = (...a) => git(...a).toString('utf8');
 
 const LICENSES = {
+  'CC0-1.0': { name: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },   // the standard parts (make-standard-parts.mjs)
   'CC-BY-3.0': { name: 'CC BY 3.0', url: 'https://creativecommons.org/licenses/by/3.0/' },
   'CC-BY-4.0': { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' },
 };

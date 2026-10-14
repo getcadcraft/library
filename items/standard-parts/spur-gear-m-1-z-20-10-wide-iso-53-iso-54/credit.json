@@ -1,0 +1,19 @@
+{
+  "title": "Spur gear m 1, z 20, 10 wide, ISO 53 / ISO 54",
+  "source_title": "ISO 54:1996 Cylindrical gears for general engineering and for heavy engineering — Modules; ISO 53:1998 Cylindrical gears for general and heavy engineering — Standard basic rack tooth profile",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from the dimensions in the standard's published tables (only the numbers are taken: dimensions are facts).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "standard parts tables",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/standard-parts",
+  "commit": "make-standard-parts 1",
+  "source_kind": "spec",
+  "standard": "ISO 54, ISO 53",
+  "source_url": "https://www.iso.org/standard/22644.html",
+  "notes": [
+    "Drawn by the gear drawing convention (tip circle, pitch circle as a centre line, root circle thin), not tooth by tooth."
+  ],
+  "changes": "None: made directly from the table.",
+  "attribution": "“Spur gear m 1, z 20, 10 wide, ISO 53 / ISO 54” by CadCraft, dimensions from ISO 54:1996 and ISO 53:1998 (https://www.iso.org/standard/22644.html), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}

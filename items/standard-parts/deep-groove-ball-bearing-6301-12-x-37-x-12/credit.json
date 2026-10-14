@@ -1,0 +1,17 @@
+{
+  "title": "Deep groove ball bearing 6301 (12 × 37 × 12)",
+  "source_title": "ISO 15:2017 Rolling bearings — Radial bearings — Boundary dimensions, general plan",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from the dimensions in the standard's published tables (only the numbers are taken: dimensions are facts).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "standard parts tables",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/standard-parts",
+  "commit": "make-standard-parts 1",
+  "source_kind": "spec",
+  "standard": "ISO 15",
+  "source_url": "https://www.iso.org/standard/69977.html",
+  "notes": [],
+  "changes": "None: made directly from the table.",
+  "attribution": "“Deep groove ball bearing 6301 (12 × 37 × 12)” by CadCraft, dimensions from ISO 15:2017 (https://www.iso.org/standard/69977.html), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Hex nut 1/2-13 UNC, ASME B18.2.2",
+  "source_title": "ASME B18.2.2-2022 Nuts for general applications: machine screw nuts, and hex, square, hex flange and coupling nuts (inch series)",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from the dimensions in the standard's published tables (only the numbers are taken: dimensions are facts).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "standard parts tables",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/standard-parts",
+  "commit": "make-standard-parts 1",
+  "source_kind": "spec",
+  "standard": "ASME B18.2.2",
+  "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b18-2-2-nuts-general-applications-machine-screw-nuts-hex-square-hex-flange-coupling-nuts",
+  "notes": [],
+  "changes": "None: made directly from the table.",
+  "attribution": "“Hex nut 1/2-13 UNC, ASME B18.2.2” by CadCraft, dimensions from ASME B18.2.2-2022 (https://www.asme.org/codes-standards/find-codes-standards/b18-2-2-nuts-general-applications-machine-screw-nuts-hex-square-hex-flange-coupling-nuts), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}

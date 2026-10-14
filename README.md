@@ -4,7 +4,8 @@ Openly licensed items for the [CadCraft](https://getcadcraft.com) family's libra
 appliances, fixtures and other things you place in a drawing or a model. Each item comes with its author's name
 and its license, so you can see who made it and how you may use it.
 
-> **Status:** a pilot. The first items are 25 parts from the FreeCAD Parts Library. The library on
+> **Status:** a pilot. The first items are 25 parts from the FreeCAD Parts Library and 111 mechanical standard
+> parts (bolts, nuts, washers, pins, bearings, keys, gears) drawn by CadCraft from standard tables. The library on
 > getcadcraft.com is not open to the public yet.
 
 ## What is in this repo
@@ -24,6 +25,9 @@ and its license, so you can see who made it and how you may use it.
 **The items are not covered by this repo's Apache license.** Each item keeps the license its author chose,
 named in its `credit.json` and in `CREDITS.md`:
 
+- The standard parts (`items/standard-parts/`): [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), made by
+  CadCraft. Use them for anything; no credit needed. `sources/standard-parts/README.md` lists the standards their
+  dimensions come from.
 - Items from the FreeCAD Parts Library: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) (some
   authors chose [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for their own parts). You may use,
   change and share them for any purpose, as long as you credit the author, link the license and say what you
@@ -44,6 +48,12 @@ node tools/import-freecad.mjs --upstream ../FreeCAD-library --libitem <path to l
 `libitem.js` is the library item module from a BimCraft or CadCraft build (`app/libitem.js` in their
 repositories) that reads STL. The script reads the source at the commit `sources/freecad/pilot.json` pins, so a
 run gives the same items every time. See `sources/freecad/README.md` for how authors and licenses are found.
+
+The standard parts come from the tables in `tools/shapes/` (a copy of the CadCraft site's `lib/shapes/`):
+
+```sh
+node tools/make-standard-parts.mjs --libitem <path to libitem.js>
+```
 
 ## Links
 

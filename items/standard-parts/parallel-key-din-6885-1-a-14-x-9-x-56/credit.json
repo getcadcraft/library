@@ -1,0 +1,17 @@
+{
+  "title": "Parallel key DIN 6885-1 A 14 × 9 × 56",
+  "source_title": "DIN 6885-1 Drive type fastenings without taper action — Parallel keys, keyways, deep pattern",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from the dimensions in the standard's published tables (only the numbers are taken: dimensions are facts).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "standard parts tables",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/standard-parts",
+  "commit": "make-standard-parts 1",
+  "source_kind": "spec",
+  "standard": "DIN 6885-1",
+  "source_url": "https://www.din.de/en/getting-involved/standards-committees/nam/publications/wdc-beuth:din21:346315269",
+  "notes": [],
+  "changes": "None: made directly from the table.",
+  "attribution": "“Parallel key DIN 6885-1 A 14 × 9 × 56” by CadCraft, dimensions from DIN 6885-1 (https://www.din.de/en/getting-involved/standards-committees/nam/publications/wdc-beuth:din21:346315269), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}

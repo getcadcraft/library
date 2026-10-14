@@ -1,0 +1,17 @@
+{
+  "title": "Hex head screw ISO 4017 M16 × 50",
+  "source_title": "ISO 4017:2022 Fasteners — Hexagon head screws — Product grades A and B",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from the dimensions in the standard's published tables (only the numbers are taken: dimensions are facts).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "standard parts tables",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/standard-parts",
+  "commit": "make-standard-parts 1",
+  "source_kind": "spec",
+  "standard": "ISO 4017",
+  "source_url": "https://www.iso.org/standard/72585.html",
+  "notes": [],
+  "changes": "None: made directly from the table.",
+  "attribution": "“Hex head screw ISO 4017 M16 × 50” by CadCraft, dimensions from ISO 4017:2022 (https://www.iso.org/standard/72585.html), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}
