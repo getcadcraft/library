@@ -4,8 +4,10 @@ Openly licensed items for the [CadCraft](https://getcadcraft.com) family's libra
 appliances, fixtures and other things you place in a drawing or a model. Each item comes with its author's name
 and its license, so you can see who made it and how you may use it.
 
-> **Status:** a pilot. The first items are 25 parts from the FreeCAD Parts Library and 111 mechanical standard
-> parts (bolts, nuts, washers, pins, bearings, keys, gears) drawn by CadCraft from standard tables. The library on
+> **Status:** a pilot. The first items are 25 parts from the FreeCAD Parts Library, 111 mechanical standard
+> parts (bolts, nuts, washers, pins, bearings, keys, gears) drawn by CadCraft from standard tables, and 73 residential
+> items (cabinets, vanities, appliances, plumbing fixtures, furniture) and 15 entourage items (trees, shrubs, people,
+> cars) drawn by CadCraft. The library on
 > getcadcraft.com is not open to the public yet.
 
 ## What is in this repo
@@ -28,6 +30,10 @@ named in its `credit.json` and in `CREDITS.md`:
 - The standard parts (`items/standard-parts/`): [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), made by
   CadCraft. Use them for anything; no credit needed. `sources/standard-parts/README.md` lists the standards their
   dimensions come from.
+- The residential set (`items/residential/`): [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), drawn by
+  CadCraft. `sources/residential/README.md` lists the sizes.
+- The entourage (`items/entourage/`): [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), drawn by CadCraft
+  from numbers (no outside model or photo). `sources/entourage/README.md` says how.
 - Items from the FreeCAD Parts Library: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) (some
   authors chose [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for their own parts). You may use,
   change and share them for any purpose, as long as you credit the author, link the license and say what you
@@ -53,6 +59,18 @@ The standard parts come from the tables in `tools/shapes/` (a copy of the CadCra
 
 ```sh
 node tools/make-standard-parts.mjs --libitem <path to libitem.js>
+```
+
+The residential set is drawn in `tools/residential/items.js`:
+
+```sh
+node tools/make-residential.mjs --libitem <path to libitem.js>
+```
+
+The entourage is drawn in `tools/entourage/entourage.js` (a copy of the CadCraft site's `lib/entourage/`):
+
+```sh
+node tools/make-entourage.mjs --libitem <path to libitem.js>
 ```
 
 ## Links

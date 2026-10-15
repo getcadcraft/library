@@ -1,0 +1,16 @@
+{
+  "title": "Range 30\" (freestanding)",
+  "source_title": "drawn by CadCraft",
+  "author": "CadCraft",
+  "author_from": "Drawn by CadCraft from common nominal residential sizes (not any maker's product).",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "library": "CadCraft residential set",
+  "library_url": "https://github.com/getcadcraft/library/tree/main/sources/residential",
+  "commit": "make-residential 1",
+  "source_kind": "own",
+  "source_url": "https://github.com/getcadcraft/library/tree/main/sources/residential",
+  "notes": [],
+  "changes": "None: drawn for this library.",
+  "attribution": "“Range 30\" (freestanding)” by CadCraft, CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)."
+}
