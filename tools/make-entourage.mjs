@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { withTranslations } from './translations.mjs';
 import { entourage, libraryItem } from './entourage/entourage.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -60,7 +61,7 @@ for (const e of entourage()) {
     changes: 'None: drawn for this library.',
     attribution: `“${item.name}” by CadCraft, CC0 1.0 (${CC0.url}).`,
   };
-  want.set(path.join(outRoot, slug, 'item.json'), JSON.stringify(item));
+  want.set(path.join(outRoot, slug, 'item.json'), JSON.stringify(withTranslations('entourage', slug, item)));   // CadCraft 0.6 WL.7: names in other languages (translations/)
   want.set(path.join(outRoot, slug, 'preview.svg'), L.previewSvg(item));
   want.set(path.join(outRoot, slug, 'credit.json'), JSON.stringify(credit, null, 2) + '\n');
 }

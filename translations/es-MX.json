@@ -1,0 +1,373 @@
+{
+  "@locale": "es-MX",
+  "@note": "Draft translation (2026-10-16, session bim-interop): names and types for the residential set and the entourage, descriptions for the entourage. Not yet reviewed by a native speaker. Keys: <source>/<slug> under items/.",
+  "items": {
+    "entourage/car-sedan": {
+      "name": "Auto, sedán",
+      "description": "Un auto de 4700 × 1820 mm y 1450 mm de alto, para accesos, cocheras y estacionamientos.",
+      "type": "Entorno"
+    },
+    "entourage/car-suv": {
+      "name": "Auto, SUV",
+      "description": "Una camioneta SUV de 4800 × 1900 mm y 1750 mm de alto, para accesos, cocheras y estacionamientos.",
+      "type": "Entorno"
+    },
+    "entourage/child-standing": {
+      "name": "Niño, de pie",
+      "description": "Una persona de 1200 mm de alto, estilizada, para dar escala en imágenes y cortes.",
+      "type": "Entorno"
+    },
+    "entourage/hedge-2000": {
+      "name": "Seto, 2 m de largo",
+      "description": "Un seto recortado de 2000 mm de largo, 600 mm de fondo y 1200 mm de alto.",
+      "type": "Entorno"
+    },
+    "entourage/person-standing": {
+      "name": "Persona, de pie",
+      "description": "Una persona de 1750 mm de alto, estilizada, para dar escala en imágenes y cortes.",
+      "type": "Entorno"
+    },
+    "entourage/person-standing-2": {
+      "name": "Persona, de pie (ropa clara)",
+      "description": "Una persona de 1650 mm de alto, estilizada, para dar escala en imágenes y cortes.",
+      "type": "Entorno"
+    },
+    "entourage/person-walking": {
+      "name": "Persona, caminando",
+      "description": "Una persona de 1750 mm de alto, caminando, estilizada, para dar escala en imágenes y cortes.",
+      "type": "Entorno"
+    },
+    "entourage/plant-potted": {
+      "name": "Planta en maceta",
+      "description": "Una planta en maceta de barro, de unos 1.1 m de alto: para terrazas, entradas y habitaciones.",
+      "type": "Entorno"
+    },
+    "entourage/shrub-round-1200": {
+      "name": "Arbusto redondo, 1.2 m",
+      "description": "Un arbusto redondeado de unos 1200 mm de ancho y 1000 mm de alto.",
+      "type": "Entorno"
+    },
+    "entourage/shrub-small-600": {
+      "name": "Arbusto pequeño, 0.6 m",
+      "description": "Un arbusto redondeado de unos 600 mm de ancho y 550 mm de alto.",
+      "type": "Entorno"
+    },
+    "entourage/tree-columnar-7m": {
+      "name": "Árbol columnar, 7 m",
+      "description": "Un árbol columnar estrecho de unos 7 m de alto, para hileras junto a un acceso o un lindero.",
+      "type": "Entorno"
+    },
+    "entourage/tree-conifer-8m": {
+      "name": "Conífera, 8 m",
+      "description": "Una conífera de unos 8 m de alto.",
+      "type": "Entorno"
+    },
+    "entourage/tree-deciduous-10m": {
+      "name": "Árbol caducifolio, 10 m",
+      "description": "Un árbol caducifolio de unos 10 m de alto, para planos de conjunto e imágenes.",
+      "type": "Entorno"
+    },
+    "entourage/tree-deciduous-6m": {
+      "name": "Árbol caducifolio, 6 m",
+      "description": "Un árbol caducifolio de unos 6 m de alto, para planos de conjunto e imágenes.",
+      "type": "Entorno"
+    },
+    "entourage/tree-ornamental-4m": {
+      "name": "Árbol ornamental, 4 m",
+      "description": "Un árbol caducifolio de unos 4 m de alto, para planos de conjunto e imágenes.",
+      "type": "Entorno"
+    },
+    "residential/armchair-34-in": {
+      "name": "Sillón 34\"",
+      "type": "Asiento"
+    },
+    "residential/base-cabinet-12-in-b12": {
+      "name": "Gabinete base 12\" (B12)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-15-in-b15": {
+      "name": "Gabinete base 15\" (B15)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-18-in-b18": {
+      "name": "Gabinete base 18\" (B18)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-21-in-b21": {
+      "name": "Gabinete base 21\" (B21)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-24-in-b24": {
+      "name": "Gabinete base 24\" (B24)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-30-in-b30": {
+      "name": "Gabinete base 30\" (B30)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-33-in-b33": {
+      "name": "Gabinete base 33\" (B33)",
+      "type": "Gabinete base"
+    },
+    "residential/base-cabinet-36-in-b36": {
+      "name": "Gabinete base 36\" (B36)",
+      "type": "Gabinete base"
+    },
+    "residential/bathroom-vanity-24-in-v2421": {
+      "name": "Mueble de lavabo 24\" (V2421)",
+      "type": "Mueble de baño"
+    },
+    "residential/bathroom-vanity-30-in-v3021": {
+      "name": "Mueble de lavabo 30\" (V3021)",
+      "type": "Mueble de baño"
+    },
+    "residential/bathroom-vanity-36-in-v3621": {
+      "name": "Mueble de lavabo 36\" (V3621)",
+      "type": "Mueble de baño"
+    },
+    "residential/bathroom-vanity-48-in-v4821": {
+      "name": "Mueble de lavabo 48\" (V4821)",
+      "type": "Mueble de baño"
+    },
+    "residential/bathroom-vanity-60-in-with-two-sinks-vd6021": {
+      "name": "Mueble de lavabo 60\" con dos lavabos (VD6021)",
+      "type": "Mueble de baño"
+    },
+    "residential/bathtub-60-in-x-30-in-alcove": {
+      "name": "Tina 60\" × 30\" (empotrada)",
+      "type": "Mueble sanitario"
+    },
+    "residential/blind-corner-base-cabinet-42-in-bbc42": {
+      "name": "Gabinete base de esquina ciega 42\" (BBC42)",
+      "type": "Gabinete base"
+    },
+    "residential/bookcase-36-in": {
+      "name": "Librero 36\"",
+      "type": "Almacenaje"
+    },
+    "residential/clothes-dryer-27-in-front-loading": {
+      "name": "Secadora de ropa 27\" (carga frontal)",
+      "type": "Electrodoméstico"
+    },
+    "residential/coffee-table-48-in-x-24-in": {
+      "name": "Mesa de centro 48\" × 24\"",
+      "type": "Mesa"
+    },
+    "residential/corner-wall-cabinet-24-in-x-30-in-wc2430": {
+      "name": "Gabinete alto de esquina 24\" × 30\" (WC2430)",
+      "type": "Gabinete alto"
+    },
+    "residential/desk-48-in-x-24-in": {
+      "name": "Escritorio 48\" × 24\"",
+      "type": "Mesa"
+    },
+    "residential/dining-chair": {
+      "name": "Silla de comedor",
+      "type": "Asiento"
+    },
+    "residential/dining-table-60-in-x-36-in": {
+      "name": "Mesa de comedor 60\" × 36\"",
+      "type": "Mesa"
+    },
+    "residential/dining-table-84-in-x-40-in": {
+      "name": "Mesa de comedor 84\" × 40\"",
+      "type": "Mesa"
+    },
+    "residential/dishwasher-24-in-built-in": {
+      "name": "Lavavajillas 24\" (empotrado)",
+      "type": "Electrodoméstico"
+    },
+    "residential/dresser-60-in": {
+      "name": "Cómoda 60\"",
+      "type": "Almacenaje"
+    },
+    "residential/end-table-24-in-x-24-in": {
+      "name": "Mesa auxiliar 24\" × 24\"",
+      "type": "Mesa"
+    },
+    "residential/full-bed-54-in-x-75-in": {
+      "name": "Cama matrimonial 54\" × 75\"",
+      "type": "Cama"
+    },
+    "residential/king-bed-76-in-x-80-in": {
+      "name": "Cama king size 76\" × 80\"",
+      "type": "Cama"
+    },
+    "residential/kitchen-sink-25-in-single-bowl-drop-in": {
+      "name": "Tarja de cocina 25\" (una tina, sobreponer)",
+      "type": "Mueble sanitario"
+    },
+    "residential/kitchen-sink-33-in-double-bowl-drop-in": {
+      "name": "Tarja de cocina 33\" (dos tinas, sobreponer)",
+      "type": "Mueble sanitario"
+    },
+    "residential/laundry-sink-24-in-utility-tub": {
+      "name": "Lavadero 24\" (tina de servicio)",
+      "type": "Mueble sanitario"
+    },
+    "residential/lazy-susan-corner-base-cabinet-36-in-ls36": {
+      "name": "Gabinete base de esquina con carrusel 36\" (LS36)",
+      "type": "Gabinete base"
+    },
+    "residential/loveseat-60-in": {
+      "name": "Sofá de dos plazas 60\"",
+      "type": "Asiento"
+    },
+    "residential/media-console-60-in": {
+      "name": "Mueble para televisión 60\"",
+      "type": "Almacenaje"
+    },
+    "residential/nightstand-24-in": {
+      "name": "Buró 24\"",
+      "type": "Almacenaje"
+    },
+    "residential/oven-cabinet-30-in-x-84-in-ov3084": {
+      "name": "Gabinete para horno 30\" × 84\" (OV3084)",
+      "type": "Gabinete alto"
+    },
+    "residential/over-the-range-microwave-30-in": {
+      "name": "Horno de microondas sobre estufa 30\"",
+      "type": "Electrodoméstico"
+    },
+    "residential/pedestal-lavatory-24-in": {
+      "name": "Lavabo de pedestal 24\"",
+      "type": "Mueble sanitario"
+    },
+    "residential/queen-bed-60-in-x-80-in": {
+      "name": "Cama queen size 60\" × 80\"",
+      "type": "Cama"
+    },
+    "residential/range-30-in-freestanding": {
+      "name": "Estufa 30\" (de piso)",
+      "type": "Electrodoméstico"
+    },
+    "residential/range-36-in-freestanding": {
+      "name": "Estufa 36\" (de piso)",
+      "type": "Electrodoméstico"
+    },
+    "residential/range-hood-30-in-wall-chimney": {
+      "name": "Campana 30\" (chimenea de pared)",
+      "type": "Electrodoméstico"
+    },
+    "residential/range-hood-36-in-wall-chimney": {
+      "name": "Campana 36\" (chimenea de pared)",
+      "type": "Electrodoméstico"
+    },
+    "residential/refrigerator-33-in-french-door": {
+      "name": "Refrigerador 33\" (puerta francesa)",
+      "type": "Electrodoméstico"
+    },
+    "residential/refrigerator-36-in-french-door": {
+      "name": "Refrigerador 36\" (puerta francesa)",
+      "type": "Electrodoméstico"
+    },
+    "residential/round-dining-table-48-in": {
+      "name": "Mesa de comedor redonda 48\"",
+      "type": "Mesa"
+    },
+    "residential/shower-36-in-x-36-in-base-and-glass": {
+      "name": "Regadera 36\" × 36\" (base y cancel)",
+      "type": "Mueble sanitario"
+    },
+    "residential/shower-60-in-x-32-in-base-and-glass": {
+      "name": "Regadera 60\" × 32\" (base y cancel)",
+      "type": "Mueble sanitario"
+    },
+    "residential/sink-base-cabinet-30-in-sb30": {
+      "name": "Gabinete base para tarja 30\" (SB30)",
+      "type": "Gabinete base"
+    },
+    "residential/sink-base-cabinet-33-in-sb33": {
+      "name": "Gabinete base para tarja 33\" (SB33)",
+      "type": "Gabinete base"
+    },
+    "residential/sink-base-cabinet-36-in-sb36": {
+      "name": "Gabinete base para tarja 36\" (SB36)",
+      "type": "Gabinete base"
+    },
+    "residential/sofa-84-in": {
+      "name": "Sofá 84\"",
+      "type": "Asiento"
+    },
+    "residential/tall-pantry-cabinet-18-in-x-84-in-u1884": {
+      "name": "Alacena alta 18\" × 84\" (U1884)",
+      "type": "Gabinete alto"
+    },
+    "residential/tall-pantry-cabinet-24-in-x-84-in-u2484": {
+      "name": "Alacena alta 24\" × 84\" (U2484)",
+      "type": "Gabinete alto"
+    },
+    "residential/tall-pantry-cabinet-24-in-x-90-in-u2490": {
+      "name": "Alacena alta 24\" × 90\" (U2490)",
+      "type": "Gabinete alto"
+    },
+    "residential/three-drawer-base-cabinet-18-in-db18": {
+      "name": "Gabinete base de tres cajones 18\" (DB18)",
+      "type": "Gabinete base"
+    },
+    "residential/three-drawer-base-cabinet-24-in-db24": {
+      "name": "Gabinete base de tres cajones 24\" (DB24)",
+      "type": "Gabinete base"
+    },
+    "residential/toilet-elongated-bowl": {
+      "name": "Inodoro (taza alargada)",
+      "type": "Mueble sanitario"
+    },
+    "residential/twin-bed-38-in-x-75-in": {
+      "name": "Cama individual 38\" × 75\"",
+      "type": "Cama"
+    },
+    "residential/wall-cabinet-12-in-x-30-in-w1230": {
+      "name": "Gabinete alto 12\" × 30\" (W1230)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-15-in-x-30-in-w1530": {
+      "name": "Gabinete alto 15\" × 30\" (W1530)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-18-in-x-30-in-w1830": {
+      "name": "Gabinete alto 18\" × 30\" (W1830)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-21-in-x-30-in-w2130": {
+      "name": "Gabinete alto 21\" × 30\" (W2130)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-24-in-x-30-in-w2430": {
+      "name": "Gabinete alto 24\" × 30\" (W2430)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-30-in-x-15-in-w3015": {
+      "name": "Gabinete alto 30\" × 15\" (W3015)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-30-in-x-30-in-w3030": {
+      "name": "Gabinete alto 30\" × 30\" (W3030)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-33-in-x-30-in-w3330": {
+      "name": "Gabinete alto 33\" × 30\" (W3330)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-36-in-x-12-in-w3612": {
+      "name": "Gabinete alto 36\" × 12\" (W3612)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-36-in-x-15-in-w3615": {
+      "name": "Gabinete alto 36\" × 15\" (W3615)",
+      "type": "Gabinete alto"
+    },
+    "residential/wall-cabinet-36-in-x-30-in-w3630": {
+      "name": "Gabinete alto 36\" × 30\" (W3630)",
+      "type": "Gabinete alto"
+    },
+    "residential/washing-machine-27-in-front-loading": {
+      "name": "Lavadora 27\" (carga frontal)",
+      "type": "Electrodoméstico"
+    },
+    "residential/water-heater-50-gal-tank": {
+      "name": "Calentador de agua 50 gal (de depósito)",
+      "type": "Instalación"
+    }
+  }
+}
