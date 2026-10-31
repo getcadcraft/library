@@ -65,7 +65,7 @@ function car(spec) {
   const cl = cu.filter((_, i) => i % 6 === 0).map((u) => [lerp(cabin.map(([a, , c]) => [a, c]), u) * hw * .86, yOf(u)]);
   const p = new Plan(VH).poly('VEHICLE', outline, true).poly('VEHICLE-DETAIL', [...cl, ...cl.slice().reverse().map(([x, y]) => [-x, y])], true);
   for (const [wy, s] of [[fy, -1], [fy, 1], [ry, -1], [ry, 1]]) p.rect('VEHICLE-DETAIL', s * (hw - 118) - 107, wy - wr, s * (hw - 118) + 107, wy + wr);
-  const it = makeItem({ name, kind: 'furniture', category: cat, description: desc, ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s vehicle.', attrs: { 'CC-NOTE': 'Body, glass and wheels are shapes for scale and clearances; wheel arches are cut into the underside' } });
+  const it = makeItem({ name, kind: 'symbol', category: cat, description: desc, ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s vehicle.', attrs: { 'CC-NOTE': 'Body, glass and wheels are shapes for scale and clearances; wheel arches are cut into the underside' } });
   return it;
 }
 
@@ -125,7 +125,7 @@ export function motorcycle() {
   seat.rbox(-110, 640, 760, 110, 800, 800, 40, 12, 2);
   for (const s of [-1, 1]) { ch.pipe([[s * 150, -70, 300], [s * 175, 300, 300], [s * 175, 800, 360]], 32, 10); ch.strut([s * 175, 800, 360], [s * 175, 900, 380], 42, 12, 46); }
   const p = new Plan(VH).rect('VEHICLE', -45, fy - R, 45, ry + R).ellipse('VEHICLE-DETAIL', 0, -140, 130, 270).rect('VEHICLE-DETAIL', -390, fy + 70, 390, fy + 90);
-  return makeItem({ name: 'Motorcycle, standard, 8 ft', kind: 'furniture', category: 'site/vehicles', description: 'Standard motorcycle, about 2.3 m (7.7 ft) long, 0.8 m wide and 1.1 m tall, with spoked-look wheels, a fork, a handlebar, a tank, a seat, an engine block and exhausts. Front toward −Y.', ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s vehicle.' });
+  return makeItem({ name: 'Motorcycle, standard, 8 ft', kind: 'symbol', category: 'site/vehicles', description: 'Standard motorcycle, about 2.3 m (7.7 ft) long, 0.8 m wide and 1.1 m tall, with spoked-look wheels, a fork, a handlebar, a tank, a seat, an engine block and exhausts. Front toward −Y.', ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s vehicle.' });
 }
 
 export function bicycle() {
@@ -150,7 +150,7 @@ export function bicycle() {
   ch.strut([-85, bb[1], bb[2] - 150], [85, bb[1], bb[2] + 150], 11, 8);
   ch.box(60, bb[1] - 40, bb[2] + 150 - 15, 150, bb[1] + 40, bb[2] + 150 + 15); ch.box(-150, bb[1] - 40, bb[2] - 150 - 15, -60, bb[1] + 40, bb[2] - 150 + 15);
   const p = new Plan(VH).rect('VEHICLE', -300, fy - R, 300, ry + R).line('VEHICLE-DETAIL', 0, fy - R, 0, ry + R).rect('VEHICLE-DETAIL', -210, ht[1] - 90, 210, ht[1] - 50);
-  return makeItem({ name: 'Bicycle, road, 700c wheels', kind: 'furniture', category: 'site/vehicles', description: 'Road bicycle with 700c wheels, 1.75 m long, 0.42 m wide at the bars and 1.05 m tall, with a frame, fork, drop bars, saddle, spoked wheels, chainring and pedals. Front toward −Y.', ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s bicycle.' });
+  return makeItem({ name: 'Bicycle, road, 700c wheels', kind: 'symbol', category: 'site/vehicles', description: 'Road bicycle with 700c wheels, 1.75 m long, 0.42 m wide at the bars and 1.05 m tall, with a frame, fork, drop bars, saddle, spoked wheels, chainring and pedals. Front toward −Y.', ifc: { class: 'IfcTransportElement', predefined: 'NOTDEFINED' }, plan: p, model: M, remarks: 'Typical size for the class, not any maker\'s bicycle.' });
 }
 
 export function vehicleItems() { return [sedan(), suv(), pickup(), minivan(), hatchback(), motorcycle(), bicycle()]; }

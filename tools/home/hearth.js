@@ -83,7 +83,7 @@ export function firePit() {
   emb.lathe('z', [0, cy, I(9)], [[0, 0], [0, R * .66], [I(.5), R * .62], [I(.5), 0]], 24);
   for (let i = 0; i < 4; i++) { const a = i * Math.PI / 2 + .4; lg.strut([Math.cos(a) * I(8), cy + Math.sin(a) * I(8), I(11)], [-Math.cos(a) * I(8), cy - Math.sin(a) * I(8), I(14)], I(2), 10); }
   const p = new Plan(EQ).circle('EQUIP', 0, cy, R).circle('EQUIP-DETAIL', 0, cy, R * .78).circle('CLEARANCE', 0, cy, R + I(60));
-  return makeItem(eq({ name: 'Fire pit, round, 36", stone ring with steel bowl', category: 'site/landscape', description: 'Outdoor fire pit, 36" across and 12" tall, a stacked stone ring around a steel bowl with embers and four logs. Keep it on a non-combustible surface and clear of buildings and overhanging branches (the dotted ring is a planning aid, not a code distance).', ifc: { class: 'IfcBuildingElementProxy' }, plan: p, model: M, attrs: { 'CC-NOTE': 'Distances to be set by local rules' } }));
+  return makeItem(eq({ kind: 'symbol', name: 'Fire pit, round, 36", stone ring with steel bowl', category: 'site/landscape', description: 'Outdoor fire pit, 36" across and 12" tall, a stacked stone ring around a steel bowl with embers and four logs. Keep it on a non-combustible surface and clear of buildings and overhanging branches (the dotted ring is a planning aid, not a code distance).', ifc: { class: 'IfcBuildingElementProxy' }, plan: p, model: M, attrs: { 'CC-NOTE': 'Distances to be set by local rules' } }));
 }
 
 export function waterHeaterHeatPump() {
@@ -211,7 +211,7 @@ export function ceilingFan() {
   }
   const p = new Plan(EQ).circle('EQUIP-ABOVE', 0, cy, I(26)).circle('EQUIP-DETAIL', 0, cy, I(5.4));
   for (let i = 0; i < 5; i++) { const a = i * 2 * Math.PI / 5; p.line('EQUIP-DETAIL', Math.cos(a) * I(6), cy + Math.sin(a) * I(6), Math.cos(a) * I(26), cy + Math.sin(a) * I(26)); }
-  return makeItem(eq({ name: 'Ceiling fan, 52", five blades, with light', category: 'electrical/fixtures', description: 'Ceiling fan, 52" across, five wood-look blades with a downlight, hung from a 96" ceiling on a 6" downrod so the blades are about 82" above the floor. Wants a fan-rated box.', ifc: { class: 'IfcFan' }, plan: p, model: M, elec: { volts: '120', phase: '1', amps: '1' }, attrs: mount(I(75)) }));
+  return makeItem(eq({ kind: 'fixture', name: 'Ceiling fan, 52", five blades, with light', category: 'electrical/fixtures', description: 'Ceiling fan, 52" across, five wood-look blades with a downlight, hung from a 96" ceiling on a 6" downrod so the blades are about 82" above the floor. Wants a fan-rated box.', ifc: { class: 'IfcFan' }, plan: p, model: M, elec: { volts: '120', phase: '1', amps: '1' }, attrs: mount(I(75)) }));
 }
 
 export function hearthItems() {

@@ -219,7 +219,7 @@ export function spa() {
   const p = new Plan(FX).ring('FIXTURE', supRing(0, cy, S / 2, S / 2, 6, 0, n)).ring('FIXTURE-DETAIL', supRing(0, cy, I(38.6), I(38.6), 5.4, 0, n)).ring('FIXTURE-DETAIL', supRing(0, cy, I(30), I(30), 3.4, 0, n))
     .rect('CLEARANCE', -S / 2 - I(36), -S - I(36), S / 2 + I(36), I(0));
   return makeItem({
-    name: 'Spa (hot tub), 7 ft square, seats six', kind: 'equipment', category: 'plumbing/fixtures',
+    name: 'Spa (hot tub), 7 ft square, seats six', kind: 'fixture', category: 'plumbing/fixtures',
     description: 'Square hot tub, 84" × 84" and 36" tall, with a wood-look cabinet, a contoured acrylic shell with bench seating and twelve jets, filled to 31". Needs a level pad and a 240 V circuit; keep 36" clear all round for service.',
     ifc: { class: 'IfcSanitaryTerminal', predefined: 'BATH' }, plan: p, model: M, elec: { volts: '240', phase: '1', amps: '50' }, remarks: SIZE_NOTE,
   });
